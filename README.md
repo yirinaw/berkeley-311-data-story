@@ -1,5 +1,7 @@
 # berkeley-311-data-story
 
+# Illegal dumping dominates Berkeley 311 reports
+
 ## Introduction: Why this matters
 
 This project looks at 311 service request data from Berkeley, California. A 311 case is a non-emergency request or complaint that residents can submit to the city, such as illegal dumping, potholes, tree issues, abandoned vehicles, parking enforcement requests, or storm drain problems. These cases matter because they show the kinds of everyday city problems residents are asking the government to address.
@@ -26,7 +28,7 @@ I imported the CSV file into Google Sheets and used pivot tables to analyze the 
 
 For the second analysis, I created another pivot table with `Case_Status` in the rows section and a count of `Case_ID` in the values section. This showed how many cases were closed, open, in progress, or on hold. I used this pivot table to create the second chart.
 
-Google Sheet with pivot tables and charts: [PASTE YOUR GOOGLE SHEET LINK HERE]
+Google Sheet with pivot tables and charts: [https://docs.google.com/spreadsheets/d/1Wj5_CtwgZoFgfJmdz6EsAXsyvX7RiKtKXP2O4iXX1cM/edit?usp=sharing]
 
 ## Finding 1: Illegal dumping was the most common reported 311 request type
 
@@ -34,7 +36,7 @@ The most common request type in the dataset was **Illegal Dumping - City Propert
 
 This finding suggests that visible street-level issues make up a large part of Berkeley’s reported 311 activity. Illegal dumping alone made up about 31% of all cases in the dataset. The top 10 request types together made up 13,634 of the 20,430 cases, or about 67% of the dataset. This means a small number of request categories accounted for a large share of the total reports.
 
-![Top 10 Berkeley 311 request types](top_311_requests.png)
+![Top 10 Berkeley 311 request types](berkeley_311_top_requests.png)
 
 Caption: Illegal dumping on city property was the most common 311 request type in this dataset, with 6,414 cases. Abandoned vehicle complaints were second, with 2,203 cases. Source: City of Berkeley Open Data Portal, 311 cases dataset.
 
@@ -44,7 +46,7 @@ The second chart looks at case status. Most cases in the dataset were marked **C
 
 This shows that the majority of cases in the dataset had been marked as completed by the time the data was downloaded. However, the status categories should be interpreted carefully. A “closed” case does not necessarily prove that the problem was fully solved to the resident’s satisfaction. It only means the city’s case system marked the request as closed. Similarly, an open or in-progress case may not mean the city is ignoring the issue; it may mean the case takes more time, requires inspection, or depends on another department.
 
-![Berkeley 311 case status counts](case_status_counts.png)
+![Berkeley 311 case status counts](berkeley_311_case_status.png)
 
 Caption: Most Berkeley 311 cases in this dataset were marked closed, while 2,389 were open and 475 were in progress. Source: City of Berkeley Open Data Portal, 311 cases dataset.
 
