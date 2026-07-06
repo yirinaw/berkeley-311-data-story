@@ -72,5 +72,5 @@ The clearest pattern in this dataset is that illegal dumping was the most common
 
 ## Links
 
-- Original data source: [City of Berkeley 311 Cases dataset] (https://data.cityofberkeley.info/) 
-- Google Sheet analysis: [Google Sheet with pivot tables and charts] (https://docs.google.com/spreadsheets/d/1Wj5_CtwgZoFgfJmdz6EsAXsyvX7RiKtKXP2O4iXX1cM/edit?usp=sharing)
+- Original data source: [City of Berkeley 311 Cases dataset](https://data.cityofberkeley.info/311/311-Cases/p88g-6gs2/about_data)
+- Google Sheet analysis: [Google Sheet with pivot tables and charts](https://docs.google.com/spreadsheets/d/1Wj5_CtwgZoFgfJmdz6EsAXsyvX7RiKtKXP2O4iXX1cM/edit?usp=sharing)
