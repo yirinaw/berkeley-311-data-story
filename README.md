@@ -10,7 +10,7 @@ The main question I wanted to answer was: **What types of problems show up most 
 
 ## Data source and potential challenges
 
-The dataset used for this project came from the City of Berkeley Open Data Portal: [City of Berkeley Open Data Portal](https://data.cityofberkeley.info/). The dataset contains 20,430 rows and 11 columns. The columns include `Case_ID`, `Date_Opened`, `Case_Status`, `Last_Action_Date`, `Date_Closed`, `Case_Request`, `Street_Address`, `City`, `State`, `Latitude`, and `Longitude`.
+The dataset used for this project came from the City of Berkeley Open Data Portal: [City of Berkeley 311 Cases dataset](https://data.cityofberkeley.info/311/311-Cases/p88g-6gs2/about_data). The dataset contains 20,430 rows and 11 columns. The columns include `Case_ID`, `Date_Opened`, `Case_Status`, `Last_Action_Date`, `Date_Closed`, `Case_Request`, `Street_Address`, `City`, `State`, `Latitude`, and `Longitude`.
 
 The source of this data is the City of Berkeley’s 311 case system. This means the data was likely generated when residents or city staff submitted and managed service requests. Because it comes from a city government open data portal, it is a useful and relevant source for understanding reported city service issues. However, public government data should not automatically be treated as complete or perfect. A journalist would still need to ask how the city collects these cases, whether all types of residents have equal access to 311 reporting, whether duplicate reports exist, and whether some categories are used more consistently than others.
 
@@ -72,5 +72,5 @@ The clearest pattern in this dataset is that illegal dumping was the most common
 
 ## Links
 
-- Original data source: [https://data.cityofberkeley.info/] (City of Berkeley Open Data Portal)
-- Google Sheet analysis: [https://docs.google.com/spreadsheets/d/1Wj5_CtwgZoFgfJmdz6EsAXsyvX7RiKtKXP2O4iXX1cM/edit?usp=sharing]
+- Original data source: [https://data.cityofberkeley.info/] (City of Berkeley 311 Cases dataset)
+- Google Sheet analysis: [Google Sheet with pivot tables and charts] (https://docs.google.com/spreadsheets/d/1Wj5_CtwgZoFgfJmdz6EsAXsyvX7RiKtKXP2O4iXX1cM/edit?usp=sharing)
